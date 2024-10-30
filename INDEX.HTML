@@ -1,27 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo da Memória</title>
 </head>
 <body>
-
-    <main>
-        <section id="container">
-                <article class="cartao">
-                        <div class="cartao__conteudo">
-                                <h3>Programação</h3>
-                                <div class="cartao__conteudo__pergunta">
-                                        O que é JavaScript?
-                                </div>
-                                <div class="cartao__conteudo__resposta">
-                                        O JavaScript é uma linguagem de programação
-                                </div>
-                        </div>
-                </article>
-        </section>
-</main>
+    <h1>Jogo da Memória</h1>
+    <div class="game-container" id="game-container"></div>
+    <button id="restart-button" onclick="startGame()">Reiniciar Jogo</button>
+    <script src="script.js"></script>
+</body>
 </html>
     
     
